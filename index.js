@@ -218,7 +218,4 @@ me_special.prototype.escapeHtml = function (unsafe) {
     optional - 
     start_replacer
 */
-
-(function(){
-    var c = new me_special('my_markdown_example.md','lo_bhai_ban_gya_html.html');
-})();
+module.exports = me_special;
